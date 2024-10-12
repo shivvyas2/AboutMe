@@ -29,7 +29,7 @@ public class FirstFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        // Set up click listener for Hobbies button to navigate to HobbiesFragment
+        // Set up click listener for Hobbies button to navigate to Hobbies
         binding.buttonHobbies.setOnClickListener(v ->
                 NavHostFragment.findNavController(FirstFragment.this)
                         .navigate(R.id.action_firstFragment_to_hobbiesFragment)

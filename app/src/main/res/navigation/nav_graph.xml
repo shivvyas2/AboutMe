@@ -7,7 +7,7 @@
     <fragment
         android:id="@+id/firstFragment"
         android:name="com.example.aboutme.FirstFragment"
-        android:label="First Fragment">
+        android:label="Bibliography">
         <action
             android:id="@+id/action_firstFragment_to_hobbiesFragment"
             app:destination="@id/hobbiesFragment" />
@@ -18,11 +18,11 @@
 
     <fragment
         android:id="@+id/hobbiesFragment"
-        android:name="com.example.aboutme.HobbiesFragment"
-        android:label="Hobbies Fragment" />
+        android:name="com.example.aboutme.Hobbies"
+        android:label="Hobbies" />
 
     <fragment
         android:id="@+id/contactFragment"
         android:name="com.example.aboutme.ContactFragment"
-        android:label="Contact Fragment" />
+        android:label="Contact" />
 </navigation>

@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link HobbiesFragment#newInstance} factory method to
+ * Use the {@link Hobbies#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class HobbiesFragment extends Fragment {
+public class Hobbies extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class HobbiesFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public HobbiesFragment() {
+    public Hobbies() {
         // Required empty public constructor
     }
 
@@ -34,11 +34,11 @@ public class HobbiesFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment HobbiesFragment.
+     * @return A new instance of fragment Hobbies.
      */
     // TODO: Rename and change types and number of parameters
-    public static HobbiesFragment newInstance(String param1, String param2) {
-        HobbiesFragment fragment = new HobbiesFragment();
+    public static Hobbies newInstance(String param1, String param2) {
+        Hobbies fragment = new Hobbies();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
